@@ -6,8 +6,7 @@ python:
 install:
   - pip install --upgrade pip
   - pip install selenium
-  - pip install phantomjs
-  - pip install
+  - npm install phantomjs
   
 script:
   - python3 kentjobsearch.py
