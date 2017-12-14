@@ -5,7 +5,7 @@ python:
 #- python -m pip install phantomjs
 install:
   - pip install selenium
-  - pip install --user phantomjs
+  - pip install phantomjs
   - pip install
   
 script:
