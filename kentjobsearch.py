@@ -37,8 +37,8 @@ def scrape_search_results(browser):
 
  
 if __name__ == "__main__":
-    browser = webdriver.Chrome('TravisKentJobSearch/chromedriver')
-    #browser = webdriver.PhantomJS()
+    #browser = webdriver.Chrome('TravisKentJobSearch/chromedriver')
+    browser = webdriver.PhantomJS()
     go_to_kent(browser)
     go_to_search_results(browser,"chemistry")
     scrape_search_results(browser)
