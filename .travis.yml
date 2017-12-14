@@ -4,7 +4,9 @@ python:
 # command to run tests
 install:
   - pip install selenium
- # - pip3 install phantomjs
- # - python -m pip install phantomjs
+  - pip install --user phantomjs
+  #- python -m pip install phantomjs
+  - pip install
+  
 script:
   - python3 kentjobsearch.py
