@@ -1,0 +1,10 @@
+
+language: python
+python:
+  - "3.6"
+# command to run tests
+install:
+  - pip install selenium
+  - pip install phantomjs 
+script:
+  - python3 kentjobsearch.py
