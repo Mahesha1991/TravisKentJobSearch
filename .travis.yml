@@ -4,6 +4,7 @@ python:
 # command to run tests
 #- python -m pip install phantomjs
 install:
+  - pip install --upgrade pip
   - pip install selenium
   - pip install phantomjs
   - pip install
