@@ -2,10 +2,10 @@ language: python
 python:
   - "3.6"
 # command to run tests
+#- python -m pip install phantomjs
 install:
   - pip install selenium
   - pip install --user phantomjs
-  #- python -m pip install phantomjs
   - pip install
   
 script:
